@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count Project</title>
+    <!-- tailwindCSS CND -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+    <!-- CSS Style  -->
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header class="text-center p-10 md:p-0">
+        <h1 class="text-2xl md:text-4xl">Count how many times you say it.</h1>
+    </header>
+    <main class="grid grid-rows-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-center items-center mt-10 container mx-auto">
+
+        <!-- Subhan Allah -->
+        <section class="text-center bg-orange-500 p-5">
+            <div class="mb-4">
+                <h3 class="text-3xl font-bold text-white">Subhan Allah</h3>
+            </div>
+            <div class="mb-4">
+                <h1 class="text-4xl text-white font-bold" id="count1">0</h1>
+            </div>
+            <div class="mb-4">
+                <button class="btn btn-primary text-2xl" id="btn1">+</button>
+                <button class="btn btn-secondary text-2xl" id="btn2">-</button>
+            </div>
+        </section>
+
+        <!-- al-Ḥamdu lillāh -->
+        <section class="text-center bg-gray-500 p-5">
+            <div class="mb-4">
+                <h3 class="text-3xl font-bold text-white">al-Ḥamdu lillāh</h3>
+            </div>
+            <div class="mb-4">
+                <h1 class="text-4xl text-white font-bold" id="count2">0</h1>
+            </div>
+            <div class="mb-4">
+                <button class="btn btn-primary text-2xl" id="btn3">+</button>
+                <button class="btn btn-secondary text-2xl" id="btn4">-</button>
+            </div>
+        </section>
+
+        <!-- Allahu Akbar -->
+        <section class="text-center bg-pink-500 p-5">
+            <div class="mb-4">
+                <h3 class="text-3xl font-bold text-white">Allahu Akbar</h3>
+            </div>
+            <div class="mb-4">
+                <h1 class="text-4xl text-white font-bold" id="count3">0</h1>
+            </div>
+            <div class="mb-4">
+                <button class="btn btn-primary text-2xl" id="btn5">+</button>
+                <button class="btn btn-secondary text-2xl" id="btn6">-</button>
+            </div>
+        </section>
+
+
+    </main>
+    <script src="count.js"></script>
+</body>
+</html>
